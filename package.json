@@ -1,0 +1,33 @@
+{
+  "name": "gigs-update",
+  "version": "1.0.0",
+  "description": "A straightforward server that monitors an RSS feed every minute, providing notifications on my Slack channel regarding any new job postings on Upwork.",
+  "main": "index.js",
+  "scripts": {
+    "install": "npm install",
+    "build": "npx tsc",
+    "dev": "nodemon ./src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OlaleyeFisayo/gigs-update.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OlaleyeFisayo/gigs-update/issues"
+  },
+  "homepage": "https://github.com/OlaleyeFisayo/gigs-update#readme",
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "nodemon": "^3.1.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.3"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "rss-parser": "^3.13.0"
+  }
+}
