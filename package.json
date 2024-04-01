@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "install": "npm install",
-    "build": "npx tsc",
-    "dev": "node ./dist/index.js"
+    "dev": "npx tsc && node ./dist/index.js"
   },
   "repository": {
     "type": "git",
