@@ -10,5 +10,5 @@ const rssFeedUrl = process.env.URL;
 
 app.listen(port, () => {
   setInterval(() => deleteJsonFile(), 86400000);
-  setInterval(async () => await checkRssFeed(rssFeedUrl), 20000);
+  setInterval(async () => await checkRssFeed(rssFeedUrl), 60000);
 });
